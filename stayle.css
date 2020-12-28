@@ -349,7 +349,7 @@ section{
 .home_text{ 
     padding: 80px;
 }
-#myP{
+#myP, #myA{
     display: none;
 }
 .home_button{
@@ -366,7 +366,57 @@ section{
     font-size: 40px;
 } 
 /*Contact Us*/
-
+.con_text{
+    text-align: center;
+    margin-top: 78px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.contact{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.c_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.c_column {
+    float: left;
+    width: 45%;
+    margin-top: -80px;
+    padding: 100px;
+}
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 7px;
+    border: 2px solid #ccc;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    /*background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;*/
+    font-size: 19px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 35px;
+    margin-left: 140px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
