@@ -391,7 +391,7 @@ section{
     padding: 100px;
 }
 /* Style inputs */
-input[type=text], select, textarea {
+input[type=text], select, textarea, #phone {
     width: 100%;
     padding: 7px;
     border: 2px solid #ccc;
